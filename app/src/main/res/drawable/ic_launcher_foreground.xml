@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Transmitting Radio Tower base (Centered and perfectly balanced in 66dp safe zone) -->
+    
+    <!-- Outer Broadcaster Waves with Neon Violet/Magenta Gradient -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M 32,54 A 22,22 0 0,1 76,54"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="32"
+                android:startY="54"
+                android:endX="76"
+                android:endY="54"
+                android:type="linear">
+                <item android:color="#E21B65" android:offset="0.0" />
+                <item android:color="#1E52E5" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M 40,54 A 14,14 0 0,1 68,54"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="40"
+                android:startY="54"
+                android:endX="68"
+                android:endY="54"
+                android:type="linear">
+                <item android:color="#E21B65" android:offset="0.0" />
+                <item android:color="#1E52E5" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Glowing central broadcasting beacon ball -->
+    <path
+        android:fillColor="#1E52E5"
+        android:pathData="M54,54m-6,0a6,6 0,1 1,12 0a6,6 0,1 1,-12 0" />
+
+    <!-- Sleek supportive triangular structures -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M48,84 L54,54 L60,84 Z"
+        android:strokeWidth="3.5"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineJoin="round" />
+
+    <!-- Decorative horizontal receiver line decoration -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M44,72 L64,72"
+        android:strokeWidth="3"
+        android:strokeLineCap="round" />
+</vector>

@@ -1,0 +1,6 @@
+{
+  "name": "UA Радіо",
+  "description": "Сучасний та елегантний плеєр для прослуховування українського радіо у фоновому режимі з темним інтерфейсом, таймером сну та підтримкою улюблених станцій.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
